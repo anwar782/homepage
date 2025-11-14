@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2vw;
+}
+
+img{
+    width: 100px;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+
+}
+
+.left-side > nav {
+    display: flex;
+    gap: 1vw;
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.right-side{
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+
+}
+.right-side > a:first-child{
+    border: none;
+}
+
+.right-side > a{
+    border-left: 1px solid gray;
+    padding-inline:1vw;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap : 20px; 
+}
+.bar1 > div{
+     display: flex;
+    
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+.bar2 {
+    display: flex;
+    gap: 2px;
+}
+.bar2 > div {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+}
+.bar3 {
+    display: flex;
+    gap: 2px;
+    padding-left: 200px;
+}
+.bar3 > div {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+}
